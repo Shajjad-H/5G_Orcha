@@ -1,0 +1,685 @@
+{
+    "no-attack": {
+        "distribution": {
+            "cpu": {
+                "mean": 0.6,
+                "std": 0.2,
+                "min": 0,
+                "max": 1
+            },
+            "ram": {
+                "mean": 0.3,
+                "std": 0.2,
+                "min": 0.1,
+                "max": 1
+            },
+            "disk-read": {
+                "mean": 0.1,
+                "std": 0.01,
+                "min": 0,
+                "max": 1
+            },
+            "disk-write": {
+                "mean": 0.1,
+                "std": 0.01,
+                "min": 0,
+                "max": 1
+            },
+            "uplink": {
+                "mean": 0.6,
+                "std": 0.1,
+                "min": 0,
+                "max": 1
+            },
+            "downlink": {
+                "mean": 0.6,
+                "std": 0.1,
+                "min": 0,
+                "max": 1
+            },
+            "packet-drop-rate": {
+                "mean": 0.004000,
+                "std": 0.004243,
+                "min": 0.001,
+                "max": 0.01
+            },
+            "latency": {
+                "mean": 36.67,
+                "std": 18,
+                "min": 10,
+                "max": 50
+            }
+        }
+    },
+    "attacks": {
+        "1": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.8,
+                    "std": 0.1,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.5,
+                    "std": 0.2,
+                    "min": 0.2,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.8,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.9,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.01,
+                    "std": 0.05,
+                    "min": 0.000001,
+                    "max": 0.1
+                },
+                "latency": {
+                    "mean": 50,
+                    "std": 20,
+                    "min": 10,
+                    "max": 100
+                }
+            }
+        },
+        "2": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.8,
+                    "std": 0.1,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.8,
+                    "std": 0.5,
+                    "min": 0.2,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.1,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.5,
+                    "std": 0.1,
+                    "min":  0,
+                    "max": 1
+
+                },
+                "uplink": {
+                    "mean": 0.95,
+                    "std": 0.02,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.95,
+                    "std": 0.02,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.1,
+                    "std": 0.1,
+                    "min": 0.000001,
+                    "max":  0.5
+
+                },
+                "latency": {
+                    "mean": 100.0,
+                    "std": 10.0,
+                    "min": 10,
+                    "max":  200
+                }
+            }
+        },
+        "3": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.95,
+                    "std": 0.05,
+                    "min": 0.5,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.9,
+                    "std": 0.05,
+                    "min": 0.2,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.3,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.95,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.01,
+                    "std": 0.01,
+                    "min": 0.000001,
+                    "max": 0.1
+                },
+                "latency": {
+                    "mean": 100,
+                    "std": 10.0,
+                    "min": 10,
+                    "max": 200
+                }
+            }
+        },
+        "4": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.7,
+                    "std": 0.1,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.95,
+                    "std": 0.05,
+                    "min": 0.5,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.009,
+                    "std": 0.01,
+                    "min": 0.000001,
+                    "max": 0.1
+                },
+                "latency": {
+                    "mean": 100,
+                    "std": 50,
+                    "min": 10,
+                    "max": 200
+                }
+            }
+        },
+        "5": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.6,
+                    "std": 0.2,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.95,
+                    "std": 0.05,
+                    "min": 0.5,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.009,
+                    "std": 0.01,
+                    "min": 0.000001,
+                    "max": 0.1
+                },
+                "latency": {
+                    "mean": 100,
+                    "std": 50,
+                    "min": 10,
+                    "max": 200
+                }
+            }
+        },
+        "6": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.9,
+                    "std": 0.1,
+                    "min": 0.3,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.5,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.1,
+                    "std": 0.1,
+                    "min": 0.000001,
+                    "max":  0.5
+
+                },
+                "latency": {
+                    "mean": 100.0,
+                    "std": 10.0,
+                    "min": 10,
+                    "max":  200
+                }
+            }
+        },
+        "7": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.6,
+                    "std": 0.2,
+                    "min": 0,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.3,
+                    "std": 0.2,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.7,
+                    "std": 0.1,
+                    "min": 0.3,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.95,
+                    "std": 0.05,
+                    "min": 0.5,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.002001,
+                    "std": 0.004000,
+                    "min": 0.000001,
+                    "max": 0.01
+                },
+                "latency": {
+                    "mean": 50,
+                    "std": 16,
+                    "min": 10,
+                    "max": 70
+                }
+            }
+        },
+        "8": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.6,
+                    "std": 0.2,
+                    "min": 0,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.3,
+                    "std": 0.2,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.002001,
+                    "std": 0.004000,
+                    "min": 0.000001,
+                    "max": 0.01
+                },
+                "latency": {
+                    "mean": 50,
+                    "std": 16,
+                    "min": 10,
+                    "max": 70
+                }
+            }
+        },
+        "9": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.9,
+                    "std": 0.1,
+                    "min": 0.3,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.5,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.1,
+                    "std": 0.1,
+                    "min": 0.000001,
+                    "max":  0.5
+
+                },
+                "latency": {
+                    "mean": 100.0,
+                    "std": 10.0,
+                    "min": 10,
+                    "max":  200
+                }
+            }
+        },
+        "10": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.9,
+                    "std": 0.1,
+                    "min": 0.3,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.2,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.5,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.1,
+                    "std": 0.1,
+                    "min": 0.000001,
+                    "max":  0.5
+
+                },
+                "latency": {
+                    "mean": 100.0,
+                    "std": 10.0,
+                    "min": 10,
+                    "max":  200
+                }
+            }
+        },
+        "11": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.95,
+                    "std": 0.05,
+                    "min": 0.5,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.9,
+                    "std": 0.05,
+                    "min": 0.2,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.5,
+                    "std": 0.1,
+                    "min": 0.2,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.3,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.9,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.7,
+                    "std": 0.05,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.002001,
+                    "std": 0.004000,
+                    "min": 0.000001,
+                    "max": 0.01
+                },
+                "latency": {
+                    "mean": 18,
+                    "std": 16,
+                    "min": 10,
+                    "max": 50
+                }
+            }
+        },
+        "12": {
+            "distribution": {
+                "cpu": {
+                    "mean": 0.6,
+                    "std": 0.2,
+                    "min": 0,
+                    "max": 1
+                },
+                "ram": {
+                    "mean": 0.3,
+                    "std": 0.2,
+                    "min": 0.1,
+                    "max": 1
+                },
+                "disk-read": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "disk-write": {
+                    "mean": 0.1,
+                    "std": 0.01,
+                    "min": 0,
+                    "max": 1
+                },
+                "uplink": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "downlink": {
+                    "mean": 0.6,
+                    "std": 0.1,
+                    "min": 0,
+                    "max": 1
+                },
+                "packet-drop-rate": {
+                    "mean": 0.002001,
+                    "std": 0.004000,
+                    "min": 0.000001,
+                    "max": 0.01
+                },
+                "latency": {
+                    "mean": 18,
+                    "std": 16,
+                    "min": 10,
+                    "max": 50
+                }
+            }
+        }
+    }
+}
